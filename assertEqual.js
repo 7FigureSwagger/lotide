@@ -8,9 +8,6 @@ const assertEqual = function(actual, expected) {
   } else if(actual === expected) {
     console.log(`🧙‍♂️🧙‍♂️ Assertion passed ${actual} == ${expected}`);
   }
-  //console.assert(actual === expected, {actual, passed});
 }
 
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual('Tree', 'tree');
+module.exports = assertEqual;
