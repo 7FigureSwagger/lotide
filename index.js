@@ -21,18 +21,18 @@ const without = require('./without');
 
 
 module.exports = {
-  head : head,
-  tail : tail,
-  middle : middle,
-  assertArraysEqual : assertArraysEqual,
-  countLetters : countLetters,
-  countOnly : countOnly,
-  eqArrays : eqArrays,
-  eqObjects : eqObjects,
-  findKey : findKey,
-  findKeyByValue : findKeyByValue,
-  letterPositions : letterPositions,
-  map : map,
-  takeUntil : takeUntil,
-  without : without
+  tail,
+  head,
+  middle,
+  assertArraysEqual,
+  countLetters,
+  countOnly,
+  eqArrays,
+  eqObjects,
+  findKey,
+  findKeyByValue,
+  letterPositions,
+  map,
+  takeUntil,
+  without
 }
