@@ -41,7 +41,8 @@ const assertArraysEqual = require('./assertArraysEqual.js');
       return mid;
     } else {
       let mid = Math.round(arr.length / 2);
-      return arr.splice(mid, 2);
+      console.log(mid);
+      return arr.splice(mid - 1, 2);
     }
   }
 
